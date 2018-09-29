@@ -17,7 +17,16 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1">
 	<link rel="profile" href="https://gmpg.org/xfn/11">
 
-<title><?php bloginfo('name'); ?> | <?php is_front_page() ? bloginfo('description') : wp_title(); ?></title>
+
+
+	<?php if(is_front_page()) : ?>
+		<title><?php bloginfo('name'); ?> | <?php bloginfo('description'); ?></title>
+	<?php else: ?>
+		<title><?php wp_title(''); ?> | <?php bloginfo('name'); ?></title>
+	<?php endif; ?>	
+
+
+
     <meta name="description" content="<?php bloginfo('description'); ?>">
     <meta name="author" content="">
 
@@ -146,4 +155,4 @@
 
 	<div id="content" class="site-content">
 
-
+<?php hardinge_custom_breadcrumbs(); ?>

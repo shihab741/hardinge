@@ -1113,3 +1113,22 @@ object {
   	height:200px;
   }
 }
+
+#breadcrumbs{
+    list-style:none;
+    
+    overflow:hidden;
+    font-size: 10pt;
+}
+  
+#breadcrumbs li{
+    display:inline-block;
+    vertical-align:middle;
+    margin-right:5px;
+}
+  
+#breadcrumbs .separator{
+    font-size:18px;
+    font-weight:100;
+    color:#a7c44c;
+}
