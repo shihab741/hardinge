@@ -1026,7 +1026,8 @@ object {
 
 .entry-meta{
 	font-size: 12pt;
-	background-color: #D3D3D3;
+	background-color: #D3D3D3; 
+	padding-left: 10px;
 
 }
 
@@ -1131,4 +1132,19 @@ object {
     font-size:18px;
     font-weight:100;
     color:#a7c44c;
+}
+
+.wp-caption{
+	background-color: #23282d;
+}
+
+.wp-caption-text{
+	font-size:13.5px;
+	color: #a7c44c;
+	text-align: left;
+	padding-left: 10px;
+}
+
+.hardinge-entry-footer{
+	padding-left: 10px;
 }
