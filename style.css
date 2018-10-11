@@ -1025,10 +1025,14 @@ object {
 }
 
 .entry-meta{
-	font-size: 12pt;
+	font-size: 11pt;
 	background-color: #D3D3D3; 
+	color: #a299b2;
 	padding-left: 10px;
-
+	font-style: italic;
+}
+.entry-meta a{
+	color: #a299b2;
 }
 
 .widget-area ul{
@@ -1038,9 +1042,18 @@ object {
 	font-size: 12pt;
 }
 
+.widget-area a{
+	color: #a299b2;
+}
+
+
 .hardinge-single-page-nav{
 	font-size: 10.5pt;
 	padding-bottom: 7px;
+}
+
+.hardinge-single-page-nav a{
+	color: #a299b2;
 }
 
 .hardinge-single-page-nav-prev{
@@ -1121,7 +1134,9 @@ object {
     overflow:hidden;
     font-size: 10pt;
 }
-  
+#breadcrumbs a{
+	color: #a299b2;
+}  
 #breadcrumbs li{
     display:inline-block;
     vertical-align:middle;
@@ -1148,8 +1163,37 @@ object {
 
 .hardinge-entry-footer{
 	padding-left: 10px;
+	font-style: italic;
+	font-size: 11pt;
+	color: #a299b2;
+}
+
+.hardinge-entry-footer a{
+	color: #a299b2;
 }
 
 .entry-header h2{
 	font-weight: bold;
+}
+
+
+.service h3{
+	font-weight: bold;
+}
+
+.service h3 a{
+	color: #23282d;
+}
+
+.widget-title{
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.comment-respond a{
+	color: #a299b2;
+}
+
+.widget_categories ul{
+	padding-top: 0px;
 }
