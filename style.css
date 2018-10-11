@@ -997,7 +997,7 @@ object {
 	height: 200px;
 }
 #hardinge-single{
-	padding: 120px 0;
+	padding: 30px 0;
 }
 #about{
 	text-align: justify;
@@ -1136,6 +1136,7 @@ object {
 
 .wp-caption{
 	background-color: #23282d;
+	margin: auto;
 }
 
 .wp-caption-text{
@@ -1147,4 +1148,8 @@ object {
 
 .hardinge-entry-footer{
 	padding-left: 10px;
+}
+
+.entry-header h2{
+	font-weight: bold;
 }

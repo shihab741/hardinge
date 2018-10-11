@@ -459,4 +459,5 @@ function hardinge_custom_breadcrumbs() {
     }
        
 }
+
 //Breadcrumb ends
