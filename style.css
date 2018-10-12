@@ -1230,3 +1230,21 @@ object {
 }
 
 /* Code for custom menu ends */
+
+.widgettitle {
+	font-size: 14pt;
+	font-weight: bold;
+}
+
+.widget li {
+	font-size: 12pt;
+	list-style: none;
+}
+
+.widget li a{
+	color: #a299b2;
+}
+
+.widget_tag_cloud a{
+	color: #a299b2;
+}
