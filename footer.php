@@ -29,6 +29,16 @@
 			      </ul>
 			    </div>
 			    <div class="hardinge-footer">
+
+			    	<?php
+			    	if(has_nav_menu('footer_menu')){
+					  wp_nav_menu( array(
+					      'theme_location' => 'footer_menu',
+					      'container_class'   => 'footer_menu'
+					    )
+					  );
+					}
+					?>
 			      <p>&copy; <?php echo date('Y'); ?> <?php bloginfo('name'); ?>. Hardinge theme for WordPress developed by: <a href="http://shihab.fromreadingtable.com" target="_blank" title="Click here to visit Shihab's personal site"> Shihab Ahmed</a> </p>
 			    </div>
 			  </div>
