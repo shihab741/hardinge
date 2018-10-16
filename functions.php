@@ -152,6 +152,21 @@ function hardinge_widgets_init() {
 		'after_title'   => '</h3>',
 	) );
 
+    register_sidebar(array(
+        'name' => esc_html__('Single page bottom', 'hardinge'),
+        'id'   => 'single_page_bottom',
+        ));
+
+    register_sidebar(array(
+        'name' => esc_html__('Below header widget', 'hardinge'),
+        'id'   => 'below_header',
+        ));
+
+    register_sidebar(array(
+        'name' => esc_html__('Above footer widget', 'hardinge'),
+        'id'   => 'above_footer',
+        ));
+
 }
 add_action( 'widgets_init', 'hardinge_widgets_init' );
 

@@ -92,6 +92,13 @@
         </div>
     </div>
   </div>
+
+  <?php if(is_active_sidebar('below_header')) : ?>
+	<div class="below-header">
+		<?php dynamic_sidebar('below_header'); ?>
+	</div>
+	<?php endif; ?>
+
 <?php endif; ?>
 
 

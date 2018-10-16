@@ -11,12 +11,19 @@
 
 ?>
 
+<?php if(is_active_sidebar('above_footer')) : ?>
+	<div class="above-footer container">
+		<?php dynamic_sidebar('above_footer'); ?>
+	</div>
+<?php endif; ?>
 	</div><!-- #content -->
 
+	
 
 	<footer id="colophon" class="site-footer">
+
 		<div class="site-info">
-			
+		
 			<div id="footer">
 			  <div class="container text-center">
 			    <div class="social">

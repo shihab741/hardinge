@@ -1248,3 +1248,31 @@ object {
 .widget_tag_cloud a{
 	color: #a299b2;
 }
+
+.single-page-bottom{
+	list-style: none;
+	clear: both;
+	padding-top: 10px;
+}
+
+.single-page-bottom a{
+	color: #a299b2;
+}
+
+.below-header{
+	list-style: none;
+	clear: both;
+}
+
+.below-header a{
+	color: #a299b2;
+}
+
+.above-footer{
+	list-style: none;
+	clear: both;
+}
+
+.above-footer a{
+	color: #a299b2;
+}

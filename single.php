@@ -37,7 +37,13 @@ get_header();
 	</div>
 </div>
 
-  
+
+<?php if(is_active_sidebar('single_page_bottom')) : ?>
+	<div class="single-page-bottom">
+		<?php dynamic_sidebar('single_page_bottom'); ?>
+	</div>
+<?php endif; ?>
+
 
 
 <?php
