@@ -83,7 +83,7 @@
     <div class="overlay">
       
         <div class="row" id="hardinge-page-header">
-        	<?php if(!empty(header_image())) : ?>
+        	<?php  if(has_header_image()) :?>
 	        	<img src="<?php header_image(); ?>">
 	        	<?php //get_header_image(); ?>
         	<?php else : ?>
