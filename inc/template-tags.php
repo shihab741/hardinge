@@ -132,9 +132,9 @@ if ( ! function_exists( 'hardinge_post_thumbnail' ) ) :
 
 		<?php else : ?>
 
-		<a class="post-thumbnail" href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
+		<a href="<?php the_permalink(); ?>" aria-hidden="true" tabindex="-1">
 			<?php
-			the_post_thumbnail( 'post-thumbnail', array(
+			the_post_thumbnail( 'medium', array(
 				'alt' => the_title_attribute( array(
 					'echo' => false,
 				) ),
