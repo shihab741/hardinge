@@ -1175,6 +1175,9 @@ object {
 	font-weight: bold;
 }
 
+.entry-header h2 a{
+	color: #272822;
+}
 
 .service h3{
 	font-weight: bold;

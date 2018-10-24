@@ -15,9 +15,9 @@
 
 	<div class="category-thumb">
 		<?php if(has_post_thumbnail()) : ?>
-			<?php //hardinge_post_thumbnail(); 
+			<a href="<?php echo get_permalink(); ?>"><?php //hardinge_post_thumbnail(); 
 					the_post_thumbnail('medium');
-			?>
+			?></a>
 		<?php else : ?>	
 			<a href="<?php echo get_permalink(); ?>"><img src="<?php bloginfo('template_url'); ?>/template-assets/img/thumbnail-default.jpg"></a>
 		<?php endif; ?>		
