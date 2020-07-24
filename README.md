@@ -11,6 +11,3 @@ Shihab Ahmed
 http://shihab.fromreadingtable.com 
 
 
-Note for users 
-================
-After downloading the files to your server or local machine please rename the theme folder from ‘hardinge-master’ to ‘hardinge’. Then you can use this theme like other standard themes.
